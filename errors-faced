@@ -1,0 +1,7 @@
+1) Traceback (most recent call last):
+  File "zhiyuan/download.py", line 3, in <module>
+    from beir.datasets.data_loader import GenericDataLoader
+ModuleNotFoundError: No module named 'beir.datasets'
+
+solution : removed beir from package and used "pip install beir"
+
